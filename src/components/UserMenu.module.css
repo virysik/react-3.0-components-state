@@ -1,0 +1,11 @@
+/* UserMenu.module.css */
+.wrapper {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: teal;
+  margin-right: 8px;
+}
