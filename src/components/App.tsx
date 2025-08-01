@@ -2,8 +2,11 @@
 
 import Alert from "./Alert";
 import Button from "./Button";
+import EventHandler from "./EventHandler";
 import Mailbox from "./Mailbox";
+import ObjChange from "./ObjChange";
 import Product from "./Product";
+import StateComponent from "./StateComponent";
 import UserMenu from "./UserMenu";
 
 export default function App() {
@@ -28,6 +31,9 @@ export default function App() {
       <Button variant="primary" text="Login" />
       <Button variant="secondary" text="Follow" />
       <UserMenu name="John Smith" />
+      <EventHandler />
+      <StateComponent />
+      <ObjChange />
     </>
   );
 }

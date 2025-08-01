@@ -1,6 +1,7 @@
 /* src/global.css */
 
 body {
+  padding: 24px;
   font-family: sans-serif;
   line-height: 1.5;
 }
